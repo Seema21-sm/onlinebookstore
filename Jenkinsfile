@@ -10,8 +10,7 @@ pipeline {
             stage('Checkout') {
                       steps {
                                   sh 'echo passed'
-                                  git branch: 'master', url: '
-                          https://github.com/shashirajraja/onlinebookstore.git'
+                                  git branch: 'master', url: 'https://github.com/shashirajraja/onlinebookstore.git'
                               }
             }
                 stage('Build and Test') {
